@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f1f20;
+}
+img {
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: #000 0 0 16px 4px;
+}

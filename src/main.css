@@ -4,7 +4,7 @@
 html {
     color: white;
     font-family: 'Comfortaa','Quicksand';
-    background-color: #112;
+    background: linear-gradient(#223 -25%, #112 15%);
 
     -webkit-user-select: none;
     -moz-user-select: none;
