@@ -3,7 +3,7 @@
 
 html {
     color: white;
-    font-family: 'Comfortaa','Quicksand';
+    font-family: 'Comfortaa', 'Quicksand';
     background: linear-gradient(#223 -25%, #112 15%);
 
     -webkit-user-select: none;
@@ -11,9 +11,11 @@ html {
     -ms-user-select: none;
     user-select: none;
 }
+
 html::-webkit-scrollbar {
     display: none;
 }
+
 body {
     margin: 0;
     height: 100vh;
@@ -23,11 +25,13 @@ body {
     z-index: -1;
     animation: wave 100s linear infinite;
 }
+
 @keyframes wave {
     100% {
         background-position: -3200px 80vh, 2400px 70vh, -1200px 65vh;
     }
 }
+
 .body {
     height: 100vh;
     width: 100vw;
@@ -35,11 +39,13 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .card {
     display: flex;
     flex-direction: column;
     margin: auto;
     height: 60%;
+    max-width: 90vw;
     min-height: 480px;
     max-height: 720px;
     aspect-ratio: 4/5;
@@ -47,15 +53,18 @@ body {
     border-radius: 8px;
     box-shadow: #000c 10px 10px 3px;
 }
+
 .buttons {
     display: flex;
     align-items: end;
     margin-top: -20px;
 }
+
 .nickname {
     margin-top: 2%;
     font-size: 48px;
 }
+
 .button {
     display: inline-flex;
     align-items: center;
@@ -67,32 +76,40 @@ body {
     border-radius: 12px;
     margin: 0 2% 2% 2%;
 }
+
 .center {
     display: inline-flex;
     align-items: center;
     height: 100%;
     margin: auto;
 }
+
 .button:hover {
     cursor: pointer;
 }
+
 .button>div>span {
     font-size: 20px;
 }
+
 .button:hover>div>span {
     text-decoration: underline;
 }
+
 .discord {
     width: 95%;
 }
+
 object {
     display: inline-block;
     max-height: 90%;
     aspect-ratio: 1;
 }
+
 img {
-    vertical-align:middle;
+    vertical-align: middle;
 }
+
 #dpfp {
     aspect-ratio: 1;
     width: 10%;
@@ -101,9 +118,11 @@ img {
     border-radius: 10%;
     border: #ff9 solid 5px;
 }
+
 footer {
     text-align: center;
 }
+
 .bio {
     width: 94%;
     height: 100%;
